@@ -1,0 +1,2 @@
+#  cd ./yew-tailwind/ && SOURCE_CODE='/home/defyus/yew-app' OUTPUT='/home/defyus/yew-app/css' docker-compose up prod
+ cd ./yew-tailwind/ && SOURCE_CODE='/home/defyus/yew-app' OUTPUT='/home/defyus/yew-app/css' docker-compose up watch
