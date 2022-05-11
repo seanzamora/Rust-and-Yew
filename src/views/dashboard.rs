@@ -17,7 +17,7 @@ impl Component for DashboardView {
     fn view(&self, _ctx: &Context<Self>) -> Html {
         html! { 
             <div class="flex">
-            <p class="text-lg">{"Test"}</p>
+            <p class="text-2xl">{"Test"}</p>
             </div>
 
         }
