@@ -1,5 +1,9 @@
 use yew::{html, Component, Context, Html,  Properties};
 
+use crate::services::subscriber::Subscriber;
+use crate::services::producers::Producer;
+use crate::services::event_bus::EventBus;
+
 #[derive(PartialEq, Properties)]
 pub struct Props;
 
@@ -16,10 +20,10 @@ impl Component for DashboardView {
   
     fn view(&self, _ctx: &Context<Self>) -> Html {
         html! { 
-            <div class="flex">
-            <p class="text-2xl">{"Test"}</p>
-            </div>
-
+            <>
+            <Producer />
+            <Subscriber />
+            </>
         }
     }
 }
